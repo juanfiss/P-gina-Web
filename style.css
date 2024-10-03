@@ -146,7 +146,9 @@ body label.mercury > .preview {
   background: url("https://www.solarsystemscope.com/images/textures/full/2k_makemake_fictional.jpg") !important;
 }
 body label.venus > .preview {
-  background: url("https://nasa3d.arc.nasa.gov/shared_assets/images/ven0aaa2/ven0aaa2-copy-428-321.jpg") !important;
+  background: url("https://www.solarsystemscope.com/textures/download/8k_venus_surface.jpg") !important;
+  background-size: cover; /* Hace que la imagen cubra todo el círculo */
+  background-position: center; /* Centra la imagen en el círculo */
 }
 body label.earth > .preview {
   background: url("https://img00.deviantart.net/04ef/i/2009/114/3/e/new_earth_texture_map_by_lightondesigns.jpg") !important;
@@ -158,7 +160,9 @@ body label.jupiter > .preview {
   background: url("https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA07782_hires.jpg") !important;
 }
 body label.saturn > .preview {
-  background: url("https://www.solarsystemscope.com/images/textures/full/2k_saturn.jpg") !important;
+  background: url("https://www.solarsystemscope.com/textures/download/8k_saturn.jpg") !important;
+  background-size: cover; /* Hace que la imagen cubra todo el círculo */
+  background-position: center; /* Centra la imagen en el círculo */
 }
 body label.uranus > .preview {
   background: url("https://img00.deviantart.net/957c/i/2017/165/4/9/uranus_texture_map_by_jcpag2010-db7yjwb.png") !important;
@@ -1856,11 +1860,14 @@ body .solar_systm .planet.mercury {
   box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px rgba(234, 205, 199, 0.6) inset, 0 0px 23px 4px rgba(234, 205, 199, 0.6) inset, 0 -10px 130px rgba(188, 143, 127, 0.6);
 }
 body .solar_systm .planet.venus {
-  background: url("https://nasa3d.arc.nasa.gov/shared_assets/images/ven0aaa2/ven0aaa2-copy-428-321.jpg");
+  background: url("https://www.solarsystemscope.com/textures/download/8k_venus_surface.jpg");
+  background-size: cover; /* Hace que la imagen cubra todo el círculo */
+  background-position: center; /* Centra la imagen en el círculo */
   box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px #ffcb9c inset, 0 0px 23px 4px #ffcb9c inset, 0 -10px 130px #b85a07;
 }
 body .solar_systm .planet.earth {
   background: url("https://img00.deviantart.net/04ef/i/2009/114/3/e/new_earth_texture_map_by_lightondesigns.jpg");
+  
   box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px #8cbaff inset, 0 0px 23px 4px #8cbaff inset, 0 -10px 130px #7894a9;
 }
 body .solar_systm .planet.earth .trajectory.m {
@@ -1873,7 +1880,9 @@ body .solar_systm .planet.earth .moon {
   left: 800px;
   top: -160px;
   transform: scale(0.45);
-  background: url("https://img2.cgtrader.com/items/702173/682fad2a11/92k-moon-color-map-3d-model.jpg");
+  background: url("https://img.freepik.com/fotos-premium/representacion-realista-luna-satelite-natural-tierra-mostrando-su-superficie-crateres_198067-419469.jpg");
+  background-size: cover; /* Hace que la imagen cubra todo el círculo */
+  background-position: center; /* Centra la imagen en el círculo */
   z-index: -1;
   box-shadow: 0px -30px 30px 10px black inset;
 }
@@ -1891,7 +1900,9 @@ body .solar_systm .planet.mars .deimos {
   left: 900px;
   top: -100px;
   transform: scale(0.45);
-  background: url("https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA07782_hires.jpg");
+  background: url("https://i2.wp.com/spacegid.com/wp-content/uploads/2014/11/Izobrazhenie-Deymosa-poluchenaya-kosmicheskim-apparatom-MRO-v-2008-godu.jpg");
+  background-size: cover; /* Hace que la imagen cubra todo el círculo */
+  background-position: center; /* Centra la imagen en el círculo */
   z-index: -1;
   box-shadow: 0px -30px 30px 10px black inset;
 }
@@ -1911,7 +1922,9 @@ body .solar_systm .planet.mars .phoebos {
   left: 100px;
   top: -160px;
   transform: scale(0.5);
-  background: url("https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA07782_hires.jpg");
+  background: url("https://www.ngenespanol.com/wp-content/uploads/2024/07/nasa-publica-nitida-imagen-de-fobos-el-satelite-mas-grande-de-marte-1280x720.jpg");
+  background-size: cover; /* Hace que la imagen cubra todo el círculo */
+  background-position: center; /* Centra la imagen en el círculo */
   z-index: -1;
   box-shadow: 0px -30px 30px 10px black inset;
 }
@@ -1944,7 +1957,9 @@ body .solar_systm .planet.jupiter .lo {
   left: 100px;
   top: -100px;
   transform: scale(0.4);
-  background: url("http://stevealbers.net/albers/sos/jupiter/io/io_rgb_cyl.jpg");
+  background: url("https://upload.wikimedia.org/wikipedia/commons/7/7b/Io_highest_resolution_true_color.jpg");
+  background-size: cover; /* Hace que la imagen cubra todo el círculo */
+  background-position: center; /* Centra la imagen en el círculo */
   z-index: -1;
   box-shadow: 0px -30px 30px 10px black inset;
 }
@@ -1952,7 +1967,9 @@ body .solar_systm .planet.jupiter .europa {
   left: 400px;
   top: -210px;
   transform: scale(0.45);
-  background: url("http://i.imgur.com/ZZBiHOH.jpg");
+  background: url("https://static.wikia.nocookie.net/sistemasolar/images/5/54/Europa-moon.jpg/revision/latest?cb=20090731073128&path-prefix=es");
+  background-size: cover; /* Hace que la imagen cubra todo el círculo */
+  background-position: center; /* Centra la imagen en el círculo */
   z-index: -1;
   box-shadow: 0px -30px 30px 10px black inset;
 }
@@ -1960,14 +1977,22 @@ body .solar_systm .planet.jupiter .ganymede {
   left: 900px;
   top: -70px;
   transform: scale(0.4);
-  background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5938ae9e-47de-424a-8836-f98e6658d37b/dddhxoy-13ad6a6b-b3d0-49a1-88e5-941a518211c6.png/v1/fill/w_1264,h_632,q_70,strp/ganymede_texture_map__11k__by_askaniy_dddhxoy-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTYwIiwicGF0aCI6IlwvZlwvNTkzOGFlOWUtNDdkZS00MjRhLTg4MzYtZjk4ZTY2NThkMzdiXC9kZGRoeG95LTEzYWQ2YTZiLWIzZDAtNDlhMS04OGU1LTk0MWE1MTgyMTFjNi5wbmciLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Sv_X4Cn_KssN0zgn9Z_ZzabGE9nO6sBp5d_MNqFZ-dg");
+  background: url("https://static.wikia.nocookie.net/the-universe-nh/images/7/7f/Ganymede-moon.jpg/revision/latest?cb=20210523204531");
+  background-size: cover; /* Hace que la imagen cubra todo el círculo */
+  background-position: center; /* Centra la imagen en el círculo */
   z-index: -1;
   box-shadow: 0px -30px 30px 10px black inset;
 }
 body .solar_systm .planet.saturn {
-  background: url("https://www.solarsystemscope.com/images/textures/full/2k_saturn.jpg");
-  box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px rgba(234, 205, 199, 0.6) inset, 0 0px 23px 4px rgba(234, 205, 199, 0.6) inset, 0 -10px 130px rgba(188, 143, 127, 0.6);
+  background: url("https://www.solarsystemscope.com/textures/download/8k_saturn.jpg");
+  background-size: 150%; /* Aumenta la escala de la imagen */
+  background-position: center; /* Mantiene la imagen centrada */
+  box-shadow: 0 -590px 150px black inset, 
+              0 0px 130px 40px rgba(234, 205, 199, 0.6) inset, 
+              0 0px 23px 4px rgba(234, 205, 199, 0.6) inset, 
+              0 -10px 130px rgba(188, 143, 127, 0.6);
 }
+
 body .solar_systm .planet.saturn .moon h3 {
   color: #b29d81;
 }
@@ -1993,7 +2018,9 @@ body .solar_systm .planet.saturn .titan {
   left: 100px;
   top: -100px;
   transform: scale(0.4);
-  background: url("https://pre00.deviantart.net/bea3/th/pre/i/2017/057/7/f/titan_texture_map_8k_by_fargetanik-db0f8m0.png");
+  background: url("https://astronoo.com/images/lunes/titan-mers.jpg");
+  background-size: cover; /* Hace que la imagen cubra todo el círculo */
+  background-position: center; /* Centra la imagen en el círculo */
   z-index: -1;
   box-shadow: 0px -30px 30px 10px black inset;
 }
@@ -2001,7 +2028,9 @@ body .solar_systm .planet.saturn .dione {
   left: 400px;
   top: -210px;
   transform: scale(0.45);
-  background: url("https://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA12577-640x350.jpg");
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Dionean_Linea_PIA08256.jpg/280px-Dionean_Linea_PIA08256.jpg");
+  background-size: cover; /* Hace que la imagen cubra todo el círculo */
+  background-position: center; /* Centra la imagen en el círculo */
   z-index: -1;
   box-shadow: 0px -30px 30px 10px black inset;
 }
@@ -2009,14 +2038,22 @@ body .solar_systm .planet.saturn .enceladus {
   left: 900px;
   top: -70px;
   transform: scale(0.4);
-  background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9b7029c3-9717-4658-9066-11c30aa24029/dcqc1q6-b33d6702-3ed5-45d7-bec8-9c2de66ce358.png/v1/fill/w_1264,h_632,q_70,strp/enceladus_texture_map__improved__by_oleg_pluton_dcqc1q6-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQwIiwicGF0aCI6IlwvZlwvOWI3MDI5YzMtOTcxNy00NjU4LTkwNjYtMTFjMzBhYTI0MDI5XC9kY3FjMXE2LWIzM2Q2NzAyLTNlZDUtNDVkNy1iZWM4LTljMmRlNjZjZTM1OC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.o9OM9IYVVIsT6q5iejfbH6iH-LMKHomuFLlWDZfV3PA");
+  background: url("https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA23175.jpg");
+  background-size: cover; /* Hace que la imagen cubra todo el círculo */
+  background-position: center; /* Centra la imagen en el círculo */
   z-index: -1;
   box-shadow: 0px -30px 30px 10px black inset;
 }
 body .solar_systm .planet.uranus {
   background: url("https://img00.deviantart.net/957c/i/2017/165/4/9/uranus_texture_map_by_jcpag2010-db7yjwb.png");
-  box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px rgba(234, 205, 199, 0.6) inset, 0 0px 23px 4px rgba(234, 205, 199, 0.6) inset, 0 -10px 130px rgba(127, 188, 171, 0.6);
+  background-size: 150%; /* Aumenta la escala de la imagen */
+  background-position: center; /* Mantiene la imagen centrada */
+  box-shadow: 0 -590px 150px black inset, 
+              0 0px 130px 40px rgba(234, 205, 199, 0.6) inset, 
+              0 0px 23px 4px rgba(234, 205, 199, 0.6) inset, 
+              0 -10px 130px rgba(127, 188, 171, 0.6);
 }
+
 body .solar_systm .planet.uranus .moon h3 {
   color: #8dcdd8;
 }
@@ -2042,7 +2079,9 @@ body .solar_systm .planet.uranus .miranda {
   left: 100px;
   top: -100px;
   transform: scale(0.4);
-  background: url("http://celestia.simulatorlabbs.com/CelSL/textures/medres/miranda.jpg");
+  background: url("https://upload.wikimedia.org/wikipedia/commons/e/e1/PIA18185_Miranda%27s_Icy_Face.jpg");
+  background-size: cover; /* Hace que la imagen cubra todo el círculo */
+  background-position: center; /* Centra la imagen en el círculo */
   z-index: -1;
   box-shadow: 0px -30px 30px 10px black inset;
 }
@@ -2050,7 +2089,9 @@ body .solar_systm .planet.uranus .ariel {
   left: 400px;
   top: -210px;
   transform: scale(0.45);
-  background: url("http://celestia.freedoors.org/Celestia-Doors/textures/medres/ariel.jpg");
+  background: url("https://misistemasolar.com/wp-content/uploads/2018/12/ariel2-1.jpg");
+  background-size: cover; /* Hace que la imagen cubra todo el círculo */
+  background-position: center; /* Centra la imagen en el círculo */
   z-index: -1;
   box-shadow: 0px -30px 30px 10px black inset;
 }
@@ -2058,7 +2099,9 @@ body .solar_systm .planet.uranus .umbriel {
   left: 900px;
   top: -70px;
   transform: scale(0.4);
-  background: url("http://celestia.freedoors.org/Celestia-Doors/textures/medres/titania.jpg");
+  background: url("https://planet-texture-maps.fandom.com/wiki/Special:FilePath/Umbriel.png");
+  background-size: cover; /* Hace que la imagen cubra todo el círculo */
+  background-position: center; /* Centra la imagen en el círculo */
   z-index: -1;
   box-shadow: 0px -30px 30px 10px black inset;
 }
@@ -2092,22 +2135,31 @@ body .solar_systm .planet.neptune .triton {
   top: -100px;
   transform: scale(0.4);
   background: url("https://img00.deviantart.net/b934/i/2016/198/b/0/triton_texture_map_14k_by_fargetanik-daac9tm.png");
+  background-size: cover; /* Hace que la imagen cubra todo el círculo */
+  background-position: center; /* Centra la imagen en el círculo */
   z-index: -1;
   box-shadow: 0px -30px 30px 10px black inset;
 }
 body .solar_systm .planet.neptune .proteus {
   left: 400px;
-  top: -210px;
+  top: -215px;
   transform: scale(0.45);
   background: url("http://2.bp.blogspot.com/-NrsDNbSk8TU/VKmLHdOgw0I/AAAAAAAAHvY/dod1Kqv2Ta8/s1600/NereidTxt2.jpg");
+  background-size: cover; /* Hace que la imagen cubra todo el círculo */
+  background-position: center; /* Centra la imagen en el círculo */
   z-index: -1;
   box-shadow: 0px -30px 30px 10px black inset;
 }
+
+
+
 body .solar_systm .planet.neptune .nereid {
   left: 900px;
   top: -70px;
   transform: scale(0.4);
   background: url("http://4.bp.blogspot.com/-3eyaVs4az74/VKmMpLo6FYI/AAAAAAAAHvs/zK5NTllQYnk/s1600/NereidTxt.jpg");
+  background-size: cover; /* Hace que la imagen cubra todo el círculo */
+  background-position: center; /* Centra la imagen en el círculo */
   z-index: -1;
   box-shadow: 0px -30px 30px 10px black inset;
 }
